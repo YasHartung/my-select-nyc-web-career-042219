@@ -9,4 +9,5 @@ def my_select(collection)
    end
    i = i + 1
  end
+ true_collection
 end
