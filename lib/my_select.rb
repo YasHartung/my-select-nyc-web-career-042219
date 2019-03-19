@@ -1,7 +1,7 @@
 def my_select(collection)
  i = 0
  j = 0
- true_collection
+ true_collection = []
  while i < collection.length do
    if yield collection [i]
      true_collection[j] = collection [i]
