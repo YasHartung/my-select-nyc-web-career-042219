@@ -6,6 +6,7 @@ def my_select(collection)
    if yield collection [i]
      true_collection[j] = collection [i]
      j = j + 1
+   end
    i = i + 1
  end
 end
